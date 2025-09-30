@@ -26,7 +26,22 @@
 This capstone project investigates a simulated **DDoS attack** using real-world data from the **CIC-IDS2017 dataset**. We use **Splunk**, **VirusTotal**, **AbuseIPDB**, and a professional SOC playbook to analyze, triage, and respond to the incident following industry-standard blue-team practices.
 
 ---
+## ⚙️ Environment  <!--- INSERTED HERE -->
 
+All analysis and incident response activities were conducted in a virtualized lab environment using **Microsoft Azure Lab Services**.
+
+- **Platform**: Microsoft Azure Lab Services (Cloud-hosted VM)
+- **Environment Purpose**: Secure, isolated environment provisioned for CYB102 Blue Team coursework
+- **OS**: Preconfigured student VM (OS managed by course staff)
+- **Tools installed inside the VM**:
+  - Splunk
+  - Web browser (for VirusTotal and AbuseIPDB)
+  - Catalyst Case Management System
+  - Dataset files stored locally in the VM
+
+> 🖥️ This VM environment ensured that all testing was done securely, simulating real-world security operations while protecting host systems.
+
+---
 ## 📂 Dataset Overview
 
 - **Name**: CIC-IDS2017  
@@ -68,7 +83,9 @@ This capstone project investigates a simulated **DDoS attack** using real-world 
 ## 🔍 Key Aspects
 
 ### 🔹 Monitoring Sources
-Used Splunk queries on the CSV dataset to detect DDoS behavior, such as:
+Used Splunk queries on the CSV dataset to detect DDoS behavior, such as:(please keep in mind this was all done on a VM )
+
+
 
 ```spl
 index=main source="Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv" Label="DDoS"
@@ -78,13 +95,13 @@ cyb102-ddos-analysis/
 ├── data/
 │   └── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 ├── queries/
-│   └── splunk_ddos_queries.txt
+│   └── splunk_ddos_queries
 ├── reports/
 │   └── milestone_summary.md
 ├── presentation/
 │   └── slides.pptx
 ├── screenshots/
-│   └── splunk_dashboard.png
-│   └── catalyst_log.png
+│   └── splunk_dashboard
+│   └── catalyst_log
 └── README.md
 
