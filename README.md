@@ -11,13 +11,13 @@
 
 ## 👥 Team Members
 
-| Name               | Pronouns | Email                           | Favorite Thing         |
-|--------------------|----------|----------------------------------|------------------------|
-| Dennys Antunish    | He/Him   | dantunish2@gmail.com            | 🦈 Sharks              |
-| Evgeniia Yeroshkina| She/Her  | mironova.eug2016@gmail.com      | 🍦 Vanilla             |
-| Angie Rivera       | She/Her  | angiervr9@gmail.com             | 🎡 McCarren Park       |
-| Aliya Jones        | She/Her  | aliya.jones@macaulay.cuny.edu   | 🎮 Fortnite            |
-| Navruz Asatullaev  | He/Him   | navruz.college@gmail.com        | ☕ Water               |
+| Name               | Pronouns | Favorite Thing          |
+|--------------------|----------|-------------------------|
+| Dennys Antunish    | He/Him   | 🦈 Sharks              |
+| Evgeniia Yeroshkina| She/Her  | 🍦 Vanilla              |
+| Angie Rivera       | She/Her  | 🎡 McCarren Park       |
+| Aliya Jones        | She/Her  | 🎮 Fortnite            |
+| Navruz Asatullaev  | He/Him   | ☕ Water               |
 
 ---
 
