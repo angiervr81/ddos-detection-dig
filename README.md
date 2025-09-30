@@ -1,4 +1,3 @@
-# ddos-detection-dig
 # 📘 CYB102 Capstone – Intrusion Detection & DDoS Analysis
 
 **Team Name**: `BotnetBusters102`  
